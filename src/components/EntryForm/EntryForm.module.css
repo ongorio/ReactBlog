@@ -1,0 +1,47 @@
+.form-control{
+    margin: 1em;
+}
+
+.form-control input{
+    width: 100%;
+    padding: 0.5em;
+}
+
+.invalid input{
+    /* width: 100%; */
+    /* padding: 0.5em; */
+    background-color: rgb(241, 149, 149);
+    border-color: red;
+}
+
+.form-control textarea{
+    resize: vertical;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.form-control label{
+    font-size: 1.5em;
+    margin-bottom: 50%;
+}
+
+.invalid label{
+    color: red;
+    font-size: 1.5em;
+    margin-bottom: 50%;
+}
+
+.invalid textarea{
+    background-color: rgb(241, 149, 149);
+    border-color: red;
+}
+
+.form-submit{
+    display: flex;
+    margin-right: 0;
+    margin-left: auto;
+    height: 100%;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15%;
+}
